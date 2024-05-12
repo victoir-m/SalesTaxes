@@ -119,8 +119,7 @@ Data input
     "id": 3,
     "quantity": 1
   }
-
-]'
+]
 
 Results
 
