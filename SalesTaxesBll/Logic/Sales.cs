@@ -54,12 +54,14 @@ namespace SalesTaxesBll.Logic
             receipt.Quantity = quantity;
             receipt.ItemName = item.ItemName;
 
-            var salesTax = (item.Price * quantity) * (5M / 100M);
+            decimal taxPercentage = item.IsTaxable && item.IsImported ? 15M : 5M;
+
+            var salesTax = (item.Price * quantity) * (taxPercentage / 100M);
 
             var price = (item.Price * quantity) + salesTax;
 
-            receipt.Price = price;
-            receipt.SalesTaxes = salesTax;
+            receipt.Price = Math.Round(price, 2);
+            receipt.SalesTaxes = Math.Round(salesTax, 2);
 
             return receipt;
             
