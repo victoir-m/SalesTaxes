@@ -1,0 +1,6 @@
+@Sales_Taxes_HostAddress = http://localhost:5101
+
+GET {{Sales_Taxes_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,65 @@
+[
+  {
+    "Id": 1,
+    "ItemName": "Book",
+    "Price": 12.49,
+    "IsImported": false,
+    "IsTaxable": false
+  },
+  {
+    "Id": 2,
+    "ItemName": "Music CD",
+    "Price": 14.99,
+    "IsImported": false,
+    "IsTaxable": true
+  },
+  {
+    "Id": 3,
+    "ItemName": "Chocolate Bar",
+    "Price": 0.85,
+    "IsImported": false,
+    "IsTaxable": false
+  },
+  {
+    "Id": 4,
+    "ItemName": "Box of Chocolates",
+    "Price": 10.00,
+    "IsImported": true,
+    "IsTaxable": false
+  },
+  {
+    "Id": 5,
+    "ItemName": "Bottle of Perfume",
+    "Price": 47.50,
+    "IsImported": true,
+    "IsTaxable": true
+  },
+  {
+    "Id": 6,
+    "ItemName": "Bottle of Perfume",
+    "Price": 27.99,
+    "IsImported": true,
+    "IsTaxable": true
+  },
+  {
+    "Id": 7,
+    "ItemName": "Bottle of Perfume",
+    "Price": 18.99,
+    "IsImported": false,
+    "IsTaxable": true
+  },
+  {
+    "Id": 8,
+    "ItemName": "Packet Paracetamol",
+    "Price": 9.75,
+    "IsImported": false,
+    "IsTaxable": false
+  },
+  {
+    "Id": 9,
+    "ItemName": "Chocolates",
+    "Price": 11.25,
+    "IsImported": true,
+    "IsTaxable": false
+  }
+]
